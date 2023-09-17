@@ -62,22 +62,13 @@ a {
     justify-content: center;
 }
 
-/* ============== Header ============*/
+/* ============== Header, Navbar ============*/
 .fixed-header {
     background: #e6f0ff;
     padding-top: 26px;
     position: sticky;
     top: -26px;
     z-index: 1;
-}
-
-.hero-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    background: #e6f0ff;
-    height: calc(100vh - 90px);
 }
 
 .navbar {
@@ -117,6 +108,17 @@ a {
     padding: 13px 16px;
     margin-left: 18px;
     border-radius: 8px;
+}
+
+/* ======== Hero-wrap ========= */
+
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background: #e6f0ff;
+    height: calc(100vh - 90px);
 }
 
 .hero-wrap .info {
